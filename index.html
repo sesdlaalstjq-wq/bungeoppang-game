@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#8e4538"><meta name="description" content="붕어빵 타이쿤 5차 테스트: 9단계 변화하는 가게, 초보/숙련/매니저 알바, 재고 발주, 다채로운 손님과 빌런">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><link rel="manifest" href="./manifest.webmanifest">
-<title>붕어빵 타이쿤 17차 · 반반메뉴와 희귀 손님도감</title>
+<title>붕어빵 타이쿤 19차 · 아이폰·갤럭시 Firebase 실시간 협력</title>
 <style>
 :root{--ink:#59362b;--wine:#914b3b;--dark:#68352f;--cream:#fff8e9;--butter:#ffe3a7;--edge:#eecfb2;--coral:#f18d61;--gold:#ffbd58;--mint:#4d9b76;--shadow:0 3px 0 #9b55331b}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:radial-gradient(circle at 18% 8%,#fff7cb 0%,transparent 26%),radial-gradient(circle at 86% 7%,#ffd8ec 0%,transparent 18%),linear-gradient(180deg,#fff9f5,#ffeada);color:var(--ink);-webkit-tap-highlight-color:transparent;user-select:none}button{font:inherit;touch-action:manipulation;cursor:pointer;color:inherit}button:focus-visible{outline:3px solid #3a9eae;outline-offset:1px}button:disabled{opacity:.5;cursor:not-allowed}#app{position:relative;width:min(500px,100%);height:100dvh;max-height:100dvh;min-height:0;margin:auto;padding:max(7px,env(safe-area-inset-top)) 10px max(6px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:7px;overflow:hidden;background:linear-gradient(180deg,#fff8f3,#ffeef6 56%,#ffe9d8);border-inline:1px solid #eed9bf}#app>*{flex-shrink:0;position:relative;z-index:1}#app-bg{position:absolute;left:0;right:0;top:102px;bottom:50px;z-index:0;pointer-events:none;overflow:hidden;border-radius:28px}#app-bg .bg-wrap{position:absolute;inset:0}#app-bg svg{width:100%;height:100%;display:block}header{height:48px;display:flex;align-items:center;justify-content:space-between;gap:5px}.brand{display:flex;align-items:center;gap:6px;min-width:0}.brand-logo{width:41px;height:41px;border-radius:13px;background:var(--wine);display:grid;place-items:center;font-size:26px;box-shadow:0 3px #623328}.brand-title{font-weight:1000;font-size:16px;white-space:nowrap;letter-spacing:-.8px}.brand-caption{font-size:10px;color:#a47d66;font-weight:800}.header-btns{display:flex;align-items:center;gap:5px}.coin{font-size:14px;border:1px solid #efc883;padding:7px 8px;border-radius:13px;background:#fff5d5;font-weight:1000;white-space:nowrap;min-width:0}.round-btn{background:#fff8ec;border:1px solid var(--edge);border-radius:12px;width:35px;height:35px;font-size:18px;display:grid;place-items:center}.scorebar{height:62px;border:1px solid #f1c799;background:linear-gradient(130deg,#ffe4aa,#ffe9c1 60%,#ffdbac);border-radius:16px;padding:8px 11px;box-shadow:var(--shadow)}.scoretop{display:flex;justify-content:space-between;align-items:center;gap:4px;font-size:12px;font-weight:900}.tiny-pill{color:white;background:var(--wine);border-radius:30px;padding:4px 8px;white-space:nowrap}.time{font-size:17px;color:#8c4333;font-variant-numeric:tabular-nums;letter-spacing:-.3px}.level-line{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:7px;font-size:10px;font-weight:850;color:#956a4b}.progress{background:#e8c39b;border-radius:20px;height:7px;overflow:hidden;flex:1}.progress>div{width:0;height:100%;background:linear-gradient(90deg,#ed895a,#c75a46);border-radius:20px;transition:width .25s}.area{border:1.5px solid #efd9c4;border-radius:18px;background:rgba(255,251,245,.82);backdrop-filter:blur(5px);overflow:hidden;box-shadow:0 4px 14px rgba(120,64,64,.08)}.area-title{height:30px;display:flex;align-items:center;justify-content:space-between;padding:0 11px;font-weight:950;font-size:13px}.area-title small{font-weight:800;font-size:10px;color:#a27c65}.customers{height:142px;display:flex;flex-direction:column}.awning{height:13px;background:repeating-linear-gradient(90deg,#ef845e 0 27px,#fff3cc 27px 54px);border-bottom:2px solid #e8b883;box-shadow:0 2px #a5493730}.customer-body{display:grid;grid-template-columns:1fr 1fr;gap:7px;flex:1;min-height:0;padding:0 8px 8px}.customer{border:1px solid #efddcb;background:rgba(255,255,255,.74);border-radius:13px;min-width:0;padding:6px 7px;display:flex;flex-direction:column;gap:4px;position:relative}.customer.villain{background:#fff0e9;border-color:#d58a73}.customer-top{display:flex;align-items:center;gap:6px;min-width:0}.avatar{width:36px;height:36px;background:#fbe1c8;border:1px solid #f1caa5;border-radius:12px;display:grid;place-items:center;font-size:25px;flex-shrink:0}.villain .avatar{background:#f4b0a6}.name{font-size:12px;font-weight:1000;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.speech{font-size:9px;color:#a37964;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.customer.villain .name{color:#c04439}.order-line{font-size:11px;display:flex;align-items:center;gap:3px;white-space:nowrap;overflow:hidden}.order-line b{font-weight:900}.patience{height:5px;background:#f4e4d2;border-radius:10px;margin-top:auto;overflow:hidden}.patience>div{width:100%;height:100%;background:#6fb78d}.customer-empty{align-items:center;justify-content:center;text-align:center;border-style:dashed;color:#b99d83;font-size:11px;gap:1px;font-weight:800;background:rgba(255,255,255,.58)}.customer-empty span{font-size:23px}.recipe-row{height:54px;display:grid;grid-template-columns:repeat(3,1fr);gap:7px}.recipe{background:rgba(255,250,244,.92);border:2px solid #f0d3b0;border-radius:14px;display:flex;align-items:center;justify-content:center;gap:4px;font-size:12px;font-weight:900;min-width:0}.recipe span{font-size:22px}.recipe.selected{background:#ffdd9c;border-color:#dd9b53;box-shadow:0 3px 0 #dfa95e}.workshop{flex:1 1 auto!important;min-height:144px;display:flex;flex-direction:column}.workshop .area-title{height:29px;flex-shrink:0}.grill{margin:0 8px 7px;padding:9px 7px 7px;background:linear-gradient(130deg,#5d4036,#3f302c);border-radius:16px;border:3px solid #8a5d46;box-shadow:inset 0 2px 9px #231b1a99,0 3px #d4aa8b;flex:1;min-height:0;display:flex;flex-direction:column}.grill-label{display:flex;justify-content:space-between;color:#e9cc9d;font-size:9px;font-weight:850;margin:0 4px 5px}.molds{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;flex:1;min-height:0}.mold{position:relative;background:radial-gradient(ellipse at center,#6e5344,#382b27 85%);border:1.5px solid #856b5a;border-radius:12px;padding:2px;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff0d7;overflow:hidden}.mold:after{content:'';position:absolute;inset:4px;border:1px dashed #aa8a716a;border-radius:9px;pointer-events:none}.mold.locked{background:repeating-linear-gradient(135deg,#52443e,#52443e 7px,#473b36 7px,#473b36 14px)}.mold svg{width:92%;max-height:75px;flex:1;min-height:27px;filter:drop-shadow(0 2px 2px #22150e9c)}.mold.empty svg{opacity:.18}.mold.batter svg{--bread:#fae9ac;--edgecolor:#dfc583}.mold.filled svg{--bread:#f9dc8f;--edgecolor:#deaf64}.mold.cooking svg{--bread:#eac06c;--edgecolor:#b57c4c;animation:sizzle .5s ease-in-out infinite alternate}.mold.ready svg{--bread:#edb253;--edgecolor:#a96b36;filter:drop-shadow(0 0 8px #ffbd6d)}.mold.burnt svg{--bread:#654035;--edgecolor:#30231f}.mold-label{font-size:10px;line-height:1.25;font-weight:1000;white-space:nowrap;z-index:1}.mold-hint{font-size:9px;color:#d8bda6;white-space:nowrap;z-index:1;margin-top:1px}.mold-track{width:86%;height:4px;background:#73594c;border-radius:20px;overflow:hidden;z-index:1;margin-top:5px}.mold-track>i{display:block;height:100%;width:0;background:#ffbc66}.mold.ready .mold-track>i{background:#61c58d}.items-panel{height:91px;display:flex;flex-direction:column}.items-panel .area-title{height:27px}.item-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;flex:1;padding:0 8px 8px;min-height:0}.item{position:relative;border:1px solid #ebd0a9;background:#fff2da;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-width:0}.item .item-emoji{font-size:21px}.item .item-name{font-size:10px;font-weight:950;white-space:nowrap}.item .count{position:absolute;right:2px;top:2px;min-width:17px;height:17px;border-radius:10px;display:grid;place-items:center;font-size:10px;font-weight:950;background:#85503b;color:white}.item.bare{opacity:.65}.item.active{background:#ffe2ab;border-color:#c87e58}.controlrow{height:46px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px}.control{border:0;border-radius:13px;background:rgba(255,248,241,.93);box-shadow:0 3px #dfb9a2;color:#6e4635;font-size:13px;font-weight:1000}.control.primary{background:var(--wine);color:white;box-shadow:0 3px #6e3529}.control.shop{background:#f7bf66;box-shadow:0 3px #cc9651}.foot{height:13px;text-align:center;font-size:9px;font-weight:850;color:#ae846c;white-space:nowrap;overflow:hidden}.toast{position:fixed;z-index:99;bottom:max(20px,env(safe-area-inset-bottom));left:50%;transform:translate(-50%,20px);background:#53362ef2;color:white;border-radius:14px;padding:11px 15px;max-width:92%;min-width:210px;text-align:center;box-shadow:0 8px 25px #49231955;font-size:13px;font-weight:900;opacity:0;transition:opacity .18s,transform .18s;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}.overlay{position:fixed;inset:0;z-index:40;background:#35231aca;display:flex;align-items:center;justify-content:center;padding:14px;backdrop-filter:blur(4px)}.overlay[hidden]{display:none}.modal{width:min(420px,100%);max-height:94dvh;overflow:auto;overscroll-behavior:contain;background:linear-gradient(#fffaf0,#fff1da);border:2px solid #f4d3a6;border-radius:25px;padding:17px 16px 18px;box-shadow:0 20px 60px #22100788}.modal .modal-icon{font-size:43px;text-align:center;margin-bottom:5px}.modal h2{margin:0;text-align:center;font-size:21px;font-weight:1000;letter-spacing:-.8px}.modal p{font-size:12px;color:#98705b;text-align:center;line-height:1.55;margin:7px 0 12px}.modal .badge{background:#f6d6a1;color:#85543b;border-radius:30px;padding:5px 8px;font-size:11px;font-weight:900;display:table;margin:2px auto 9px}.modal button.wide{width:100%;height:43px;border:0;background:var(--wine);color:#fff;border-radius:12px;font-weight:1000;margin-top:7px;font-size:14px}.modal button.wide.subtle{background:#fff6e6;color:var(--ink);border:1px solid #eacbae}.steps{background:#fff7e6;border:1px solid #eed5b5;border-radius:13px;padding:11px 13px;font-size:12px;font-weight:800;line-height:1.9;color:#775341;margin-bottom:9px}.shop-list{display:flex;flex-direction:column;gap:7px;margin-top:12px}.shop-line{display:flex;align-items:center;gap:9px;border:1px solid #efd6bb;border-radius:13px;padding:9px;background:#fffcf4}.shop-line .big{font-size:24px;width:33px;text-align:center}.shop-line .details{flex:1;min-width:0}.shop-line b{font-size:13px}.shop-line small{display:block;color:#9a7765;font-size:10px;line-height:1.4;margin-top:3px}.shop-line button{border:0;border-radius:10px;background:#8e4939;color:white;padding:9px 9px;font-size:11px;font-weight:900;min-width:73px;white-space:nowrap}.shop-line button:disabled{background:#d3c0b1}.switchrow{display:flex;align-items:center;justify-content:space-between;background:#fff9ed;border:1px solid #ead3b6;border-radius:13px;padding:11px;margin-top:9px;font-weight:950;font-size:13px}.switch{background:#e9d4bc;border:0;border-radius:20px;padding:8px 13px;font-weight:950;font-size:12px;min-width:65px}.switch.on{background:#5b9a74;color:white}.hint{font-size:10px;line-height:1.5;color:#a18572;margin:10px 0 0;text-align:center}.gain{font-weight:950;color:#a94f36}.catalog{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:9px 0}.catalog>div{background:#fffaf0;border:1px solid #efd8bd;border-radius:11px;padding:7px 2px;text-align:center;font-size:10px;font-weight:900;white-space:nowrap}.catalog span{display:block;font-size:23px;margin-bottom:2px}.bar-caption{text-align:center;font-size:11px;font-weight:850;margin:8px 0}.modal-score{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:13px 0}.modal-score>div{background:#fff8ed;border:1px solid #efd8b9;padding:10px;border-radius:11px;text-align:center}.modal-score small{color:#a07e6a;font-size:10px;display:block}.modal-score b{font-size:16px;font-weight:1000}.livebonus{color:#b46b35;font-size:10px;font-weight:900}.pulse{animation:pulse .5s ease-in-out infinite alternate}@keyframes pulse{to{transform:scale(1.035)}}@keyframes sizzle{to{transform:rotate(-2deg)}}@media(max-height:750px){#app{gap:5px}header{height:43px}.scorebar{height:57px;padding:6px 10px}.customers{height:126px}.customer-body{padding-bottom:5px}.avatar{height:29px;width:29px;font-size:21px}.area-title{height:26px}.awning{height:10px}.recipe-row{height:47px}.items-panel{height:76px}.items-panel .area-title{height:22px}.item .item-emoji{font-size:19px}.controlrow{height:42px}.foot{height:10px}.workshop{min-height:130px}.mold svg{max-height:63px}.grill{padding:5px 5px 4px}.mold-label{font-size:9px}}@media(max-height:635px){.brand-caption,.foot{display:none}.brand-logo{height:34px;width:34px;font-size:22px}header{height:34px}.scorebar{height:51px}.customers{height:112px}.recipe-row{height:42px}.items-panel{height:66px}.item .item-emoji{font-size:17px}.item .item-name{font-size:9px}.controlrow{height:39px}.workshop{min-height:98px}.grill-label{display:none}}@media(min-width:680px) and (min-height:850px){#app{box-shadow:0 10px 50px #743c3a33}}
 
@@ -516,11 +516,26 @@ button.summon-action{width:100%;border:2px solid #f6e6b7;border-radius:14px;min-
 .codex-card em{font-size:8px;color:#aa6a6c;font-weight:900}
 @media(max-height:740px){.flavor-picker{height:70px}.flavor-tabs{height:21px}.flavor-picker .recipe-row{height:45px}.flavor-picker .recipe span{font-size:15px}.flavor-picker .recipe .recipe-stock{font-size:7px}}
 @media(max-width:350px){.flavor-picker .recipe-row{gap:3px}.flavor-picker .recipe b{font-size:8px}.flavor-picker .recipe span{font-size:15px}.tiny-catalog{font-size:9px;padding:3px 4px}}
+
+/* v1.8 friend room invite / connection */
+.coop-room-code{display:inline-block;background:#ffe7ad;color:#5e4834;border:1px solid #e4bb6b;padding:3px 9px;border-radius:9px;letter-spacing:1.6px;font-size:16px}
+.coop-connect-hint{background:#eff6e6;border:1px solid #cadbb4;color:#58754f;padding:9px 10px;margin:7px 0;border-radius:12px;font-size:11px;line-height:1.5;word-break:break-word}
+.coop-message{background:#ecf6e4;border:1px solid #b9d7a9;border-radius:10px;padding:8px 10px;color:#527448;font-size:11px;line-height:1.4;margin-top:5px}
+.coop-buttons button{min-height:40px}
+.coop-players .coop-player{gap:5px}
+.coop-hint{line-height:1.65!important}
+@media(max-width:360px){.coop-room-code{font-size:13px}.coop-modal h2{font-size:17px}.coop-connect-hint{font-size:10px}}
+
+.overlay{z-index:88!important}
+/* v19 Firebase multi setup */
+.coop-config-input{height:136px!important;min-height:136px;resize:vertical;line-height:1.45;font-family:ui-monospace,monospace;font-size:11px!important;white-space:pre-wrap}
+.coop-modal .coop-notice small{font-size:10px;color:#7b886b}
+.coop-code-entry .coop-input{text-transform:uppercase}
 </style>
 </head>
 <body>
 <main id="app" aria-label="붕어빵 타이쿤 게임">
-<header><div class="brand"><div class="brand-logo">🐶🐱</div><div><div class="brand-title">붕어빵 타이쿤 <span style="font-size:10px;color:#af7754">v1.7</span></div><div class="brand-caption" id="rank">Lv.1 골목 붕어빵 장인</div></div></div><div class="header-btns"><div class="coin">🪙 <span id="coins">110</span></div><button class="round-btn" id="supply-btn" aria-label="재료 발주">🧺</button><button class="round-btn" id="settings-btn" aria-label="설정">⚙️</button></div></header>
+<header><div class="brand"><div class="brand-logo">🐶🐱</div><div><div class="brand-title">붕어빵 타이쿤 <span style="font-size:10px;color:#af7754">v1.9</span></div><div class="brand-caption" id="rank">Lv.1 골목 붕어빵 장인</div></div></div><div class="header-btns"><div class="coin">🪙 <span id="coins">110</span></div><button class="round-btn" id="supply-btn" aria-label="재료 발주">🧺</button><button class="round-btn" id="settings-btn" aria-label="설정">⚙️</button></div></header>
 <div id="app-bg" aria-hidden="true"></div><div id="spell-burst" aria-hidden="true"></div>
 <div id="dialogue-pop" class="dialogue-pop" aria-live="off" aria-hidden="true"><div class="dialogue-portrait" id="dialogue-portrait">🐶</div><div class="dialogue-copy"><div class="dialogue-speaker" id="dialogue-speaker">몽이</div><div class="dialogue-words" id="dialogue-words">어서 오세요!</div></div><span class="dialogue-sparkle">✦</span></div>
 <section class="scorebar"><div class="scoretop"><span class="tiny-pill" id="day">DAY 1</span><span id="status">❤️❤️❤️</span><span class="time">⏱ <span id="timer">1:50</span></span></div><div class="level-line"><span id="progress-label">오늘 매출 0 / 260원</span><div class="progress"><div id="progress"></div></div><span id="xp-label">Lv.1</span></div></section>
@@ -533,7 +548,7 @@ button.summon-action{width:100%;border:2px solid #f6e6b7;border-radius:14px;min-
 <section class="area service-panel" aria-label="서비스용 못난이 붕어빵"><div class="service-copy"><b>🎁 서비스 트레이 · <span id="service-count">0</span>개</b><small id="service-desc">태운 붕어빵도 모아 손님께 서비스로 줄 수 있어요</small></div><button class="service-btn" id="service-btn">손님에게 서비스</button></section>
 <section class="area items-panel" aria-label="아이템 단축키"><div class="area-title"><span>✨ 특수 아이템</span><small id="item-effect">터치하여 사용 · 상점에서 구매</small></div><div class="item-row" id="item-row"></div></section>
 <nav class="controlrow" aria-label="메뉴"><button class="control" data-modal="upgrade">⬆️ 기술</button><button class="control shop" data-modal="shop">🛒 아이템</button><button class="control worker" data-modal="workers">👨‍🍳 알바</button><button class="control primary" id="pause-btn">⏸️ 휴식</button></nav>
-<div class="foot">🎮 v1.7 HALF & RARE VISITOR TEST · 자동 저장 · 화면 한 장에 쏙</div>
+<div class="foot">🎮 v1.9 FIREBASE CO-OP & RARE VISITOR TEST · 자동 저장 · 화면 한 장에 쏙</div>
 </main>
 <div class="toast" id="toast" role="status" aria-live="polite"></div><div class="overlay" id="overlay" role="presentation"></div><div id="launch" aria-live="polite"><div class="launch-inner">
 <div class="launch-top"><span id="launch-kicker">OUR LITTLE DREAM · 01</span><button class="launch-skip" id="skip-story">건너뛰기 ›</button></div>
@@ -552,6 +567,9 @@ button.summon-action{width:100%;border:2px solid #f6e6b7;border-radius:14px;min-
   </div>
 </div>
 </div></div>
+<script src="https://www.gstatic.com/firebasejs/12.19.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.19.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/12.19.0/firebase-database-compat.js"></script>
 <script>
 (()=>{'use strict';
 const $=id=>document.getElementById(id);
@@ -649,7 +667,7 @@ function techLv(id){return Math.max(1,Math.min(MAX_TECH_LEVEL,Number(saved.upgra
 function techCost(u,level){return Math.max(1,Math.round(u.base*Math.pow(1.10,level-1)+(level-1)*(level-1)*13));}
 function techBundleCost(u,n){let sum=0;const lv=techLv(u.id);for(let i=0;i<n&&lv+i<MAX_TECH_LEVEL;i++)sum+=techCost(u,lv+i);return sum;}
 
-const KEY='bungeoppang_tycoon_v17';
+const KEY='bungeoppang_tycoon_v18';
 const ESTATES=[
  {name:'골목 리어카',emoji:'🛒',size:'길거리 1칸',price:0,need:1,bonus:0,story:'아무것도 없지만 두 사람이 함께합니다.'},
  {name:'천막 좌판',emoji:'⛺',size:'2평',price:7800,need:2,bonus:.06,story:'비를 피할 지붕이 생겼어요.'},
@@ -675,7 +693,7 @@ const DECORS=[
 ];
 const defaultSave=()=>({coins:999999999,day:1,level:1,xp:0,best:0,upgrade:{speed:1,price:1,slots:1,patience:1,tips:1,saving:1,staffboost:1,combo:1,reviewer:1,stars:1},inventory:{autofill:2,gold:2,rewind:2,fairy:2,festival:2,staff:1},audio:{music:true,sfx:true,voice:false},seen:{},estate:0,decor:{},tips:{},tutorialDone:false,serviceStock:0,testMode:true,decorPositions:{outside:{},inside:{}},qualityPerfect:0,qualityLegendary:0,guestPity:{epic:0,legendary:0},guestStamps:0,guestCopies:{},pendingGuests:[],summonCount:0,v10VoiceReady:false,stock:{red:24,cream:20,choco:20,sweet:18,cheese:18}});
 let saved=defaultSave();
-try{const prev=JSON.parse(localStorage.getItem(KEY)||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v16')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v15')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v14')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v13')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v12')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v11')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v10')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v09')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v08')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v07')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v06')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v05')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v04')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v03')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v02')||'null');if(prev&&Number.isFinite(prev.coins)){saved={...saved,...prev,upgrade:{...saved.upgrade,...prev.upgrade},inventory:{...saved.inventory,...prev.inventory},audio:{...saved.audio,...prev.audio},seen:{...saved.seen,...prev.seen},decor:{...saved.decor,...prev.decor},tips:{...saved.tips,...prev.tips},decorPositions:{outside:{...(prev.decorPositions?.outside||{})},inside:{...(prev.decorPositions?.inside||{})}},stock:{...saved.stock,...prev.stock}};}else {const old=JSON.parse(localStorage.getItem('bungeoppang_tycoon_v01')||'null');if(old&&Number.isFinite(old.coins)){saved.coins=Math.max(saved.coins,old.coins);saved.day=Math.max(1,old.day||1);}}}catch(e){}
+try{const prev=JSON.parse(localStorage.getItem(KEY)||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v17')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v16')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v15')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v14')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v13')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v12')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v11')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v10')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v09')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v08')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v07')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v06')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v05')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v04')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v03')||'null')||JSON.parse(localStorage.getItem('bungeoppang_tycoon_v02')||'null');if(prev&&Number.isFinite(prev.coins)){saved={...saved,...prev,upgrade:{...saved.upgrade,...prev.upgrade},inventory:{...saved.inventory,...prev.inventory},audio:{...saved.audio,...prev.audio},seen:{...saved.seen,...prev.seen},decor:{...saved.decor,...prev.decor},tips:{...saved.tips,...prev.tips},decorPositions:{outside:{...(prev.decorPositions?.outside||{})},inside:{...(prev.decorPositions?.inside||{})}},stock:{...saved.stock,...prev.stock}};}else {const old=JSON.parse(localStorage.getItem('bungeoppang_tycoon_v01')||'null');if(old&&Number.isFinite(old.coins)){saved.coins=Math.max(saved.coins,old.coins);saved.day=Math.max(1,old.day||1);}}}catch(e){}
 saved.decorPositions=saved.decorPositions||{outside:{},inside:{}};saved.decorPositions.outside=saved.decorPositions.outside||{};saved.decorPositions.inside=saved.decorPositions.inside||{};saved.qualityPerfect=Number(saved.qualityPerfect||0);saved.qualityLegendary=Number(saved.qualityLegendary||0);
 saved.testMode=true; // v1.1은 별도 밸런스 테스트 빌드: 항상 무제한 코인
 saved.guestPity=saved.guestPity||{epic:0,legendary:0};saved.guestCopies=saved.guestCopies||{};saved.pendingGuests=saved.pendingGuests||[];saved.guestStamps=Number(saved.guestStamps||0);
@@ -696,7 +714,7 @@ if(!saved.v09InventoryConverted){
 if(!saved.v12VoiceSettingsMigrated){saved.audio.voice=false;saved.v12VoiceSettingsMigrated=true;try{localStorage.setItem(KEY,JSON.stringify(saved));}catch(e){}}
 for(const u of UPGRADES){saved.upgrade[u.id]=Math.max(1,Math.min(MAX_TECH_LEVEL,Number(saved.upgrade[u.id]||1)));}
 const game={playing:false,mode:'intro',timeLeft:115,hearts:3,earned:0,served:0,combo:0,eventTriggered:false,eventText:'',eventUntil:0,selected:'red',orders:[],slots:Array.from({length:4},()=>({stage:'empty',recipe:null,since:0})),seq:1,spawnAt:0,lastTick:Date.now(),effect:{freeze:0,autofill:0,gold:0,festival:0,staff:0,staffAt:0,staffType:'rookie'},pauseAt:0,returnMode:'intro',seenNew:0,perfectToday:0,nextChatterAt:0,voiceSeed:0};
-const coop={url:'',code:'',name:'',memberId:'',token:'',state:null,source:null,connecting:false,error:'',connected:false,lastContribution:0};
+const coop={code:'',name:'',memberId:'',state:null,roomRef:null,roomHandler:null,roomErrorHandler:null,memberRef:null,netRef:null,netHandler:null,db:null,auth:null,fbConfig:null,editConfig:false,editDraft:'',joinDraft:'',netOnline:false,initializing:null,connecting:false,error:'',connected:false,pending:[],sending:false,lastEventAt:0,serverCheck:'',serverChecking:false,wasComplete:false};
 let toastTimer=0,modalType='intro',audioCtx=null,musicTimer=null,musicStep=0,storyTimer=null,storyStarted=0,storyScene=-1,tutorialIndex=0;
 const coin=n=>Math.round(n).toLocaleString('ko-KR');
 const goal=(day=saved.day)=>200+(day-1)*27+saved.estate*20+Math.floor((day-1)/5)*27;
@@ -963,7 +981,7 @@ function startStory(muted=false){
  storyTimer=setInterval(()=>{const diff=Date.now()-storyStarted;const next=Math.min(4,Math.floor(diff/2000));if(next!==storyScene)storyFrame(next);$('launch-progress-bar').style.width=`${Math.min(100,diff/100)}%`;if(diff>=10000)showGameStart();},80);
 }
 function showGameStart(){clearInterval(storyTimer);storyTimer=null;const cover=$('launch');cover.hidden=false;cover.classList.add('title-launch');cover.querySelector('.launch-inner').style.background=`linear-gradient(180deg,rgba(14,49,34,.62),rgba(22,50,42,.94)),url('${TITLE_IMAGE}') center/cover`;$('launch-kicker').textContent='THE DREAM BEGINS';$('skip-story').hidden=true;$('launch-progress-bar').parentElement.hidden=true;$('launch-shop').innerHTML=`<img class="story-illustration" src="${TITLE_IMAGE}" alt="강아지와 고양이 신혼부부" />`;;$('launch-chapter').textContent='🐶 몽이 × 🐱 나비 · 숲속 신혼가게';$('launch-heading').innerHTML='<span class="game-title">숲속 붕어빵<br>타이쿤</span>';$('launch-subtitle').textContent=`${ESTATES[saved.estate].emoji} ${ESTATES[saved.estate].name} · DAY ${saved.day}`;$('story-voice-line').style.display='none';cancelVoice();
-const f=cover.querySelector('.launch-caption');f.style.minHeight='180px';let buttons=cover.querySelector('.launch-footer');if(!buttons){buttons=document.createElement('div');buttons.className='launch-footer';cover.querySelector('.launch-inner').appendChild(buttons);}buttons.style.display='flex';buttons.innerHTML=`<button class="big-start" id="game-start">GAME START ▶</button><button class="story-again" id="story-again">🎬 10초 오프닝 다시 보기</button><span class="launch-bottom-note">숲속 신혼부부의 달콤한 빌딩 건축 도전!</span>`;}
+const f=cover.querySelector('.launch-caption');f.style.minHeight='180px';let buttons=cover.querySelector('.launch-footer');if(!buttons){buttons=document.createElement('div');buttons.className='launch-footer';cover.querySelector('.launch-inner').appendChild(buttons);}buttons.style.display='flex';buttons.innerHTML=`${coopInviteCode()?`<button class="big-start" id="coop-invite-join">🤝 친구 초대 방 ${coopInviteCode()} 참여</button>`:""}<button class="big-start" id="game-start">GAME START ▶</button><button class="story-again" id="story-again">🎬 10초 오프닝 다시 보기</button><span class="launch-bottom-note">숲속 신혼부부의 달콤한 빌딩 건축 도전!</span>`;}
 function beginFromStart(){clearInterval(storyTimer);storyTimer=null;cancelVoice();$('launch').hidden=true;storySilentRun=false;initAudio();if(!saved.tutorialDone||!saved.v09GuideDone){tutorialIndex=0;game.returnMode='intro';openModal('tutorial',false);}else startDay();}
 function nextTutorial(skip=false){if(skip||tutorialIndex>=7){saved.tutorialDone=true;saved.v09GuideDone=true;persist();startDay();}else{tutorialIndex++;showModalContent('tutorial');}}
 
@@ -1167,7 +1185,7 @@ function tick(){if(!game.playing)return;const now=Date.now();if(saved.testMode&&
   if(game.orders.length){for(const o of [...game.orders])finishOrder(o,true);needRender=true;}}
  if(!game.eventTriggered&&game.timeLeft<90){happyEvent();needRender=true;}if(game.eventText&&now>game.eventUntil){game.eventText="";needRender=true;}if(game.effect.freeze>0){game.effect.freeze=Math.max(0,game.effect.freeze-delta);game.orders.forEach(o=>o.deadline+=delta*1000);}if(game.effect.staff>0){game.effect.staff=Math.max(0,game.effect.staff-delta);staffWork(now);needRender=true;}for(const s of game.slots){if(s.stage==='cooking'&&now-s.since>=cookingSec(saved.upgrade.speed)*1000){s.stage='ready';s.since=now;needRender=true;}else if(s.stage==='ready'&&now-s.since>7600){s.stage='burnt';sound('bad');msg('앗, 붕어빵이 탔어요! 서비스용으로 빼 둘 수 있어요 🔥');ownerTalk('burnt');needRender=true;}}for(const o of [...game.orders]){if(o.trait==='change'&&!o.switched&&o.deadline-now<o.patience*550){const prev=o.parts[0]?.id;const other=randomFrom(RECIPES.filter(x=>x.id!==prev));o.parts=[{id:other.id,qty:2,done:0}];o.switched=true;msg('🎭 주문 바꾸기 악당이 갑자기 '+other.name+' 2개를 요구해요!');needRender=true;}if(now>=o.deadline){game.orders=game.orders.filter(x=>x!==o);game.hearts--;game.combo=0;if(o.trait==='reviewattack'){saved.coins=Math.max(0,saved.coins-30);persist();msg('📱 악플러의 나쁜 리뷰! 벌금 30코인');}else if(o.trait==='refund'){game.hearts=Math.max(0,game.hearts-1);msg('🧟 환불 진상 때문에 평판이 더 나빠졌어요!');}else msg(`${o.name} 기다리다 떠났어요! 💔`);sound('bad');needRender=true;}}if(now>=game.spawnAt){spawnNext();game.spawnAt=now+(game.effect.festival>0?Math.max(1000,2700-saved.estate*80):Math.max(2600,7600-(saved.day-1)*170-saved.estate*180));needRender=true;}if(game.timeLeft<=0||game.hearts<=0){endDay();return;}if(needRender)render();else updateFast();}
 function resetAll(){if(!confirm('코인, 레벨, 아이템, 도감을 모두 초기화할까요?'))return;saved=defaultSave();persist();game.playing=false;game.mode='intro';game.returnMode='intro';game.orders=[];game.timeLeft=115;game.earned=0;game.hearts=3;game.effect.freeze=0;resetSlots();render();startStory();msg('새 게임으로 초기화했어요.');}
-document.addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;initAudio();if(b.id==='opening-sound'){voiceUnlocked=true;saved.audio.music=true;persist();initAudio();startStory(false);return;}if(b.id==='opening-silent'){startStory(true);return;}if(b.id==='skip-story'){showGameStart();return;}if(b.id==='story-again'){startStory();return;}if(b.id==='game-start'){beginFromStart();return;}if(b.id==='property-btn'){openModal('property');return;}if(b.id==='showroom-btn'){previewEstate=saved.estate;showroomTab='outside';showroomNotice='';decorEdit=false;selectedDecor=null;openModal('showroom');return;}if(b.id==='coop-btn'||b.id==='coop-hud'){openModal('multiplayer');return;}if(b.id==='supply-btn'){openModal('supplies');return;}if(b.id==='service-btn'){giveService();return;}if(b.id==='settings-btn'){openModal('settings');return;}if(b.id==='catalog-btn'){catalogRank='ALL';summonNotice=null;openModal('catalog');return;}if(b.id==='pause-btn'){if(game.playing)openModal('pause');else if(game.mode==='intro')showGameStart();else if(game.mode==='result')openModal('result',false,{won:false});else if(game.mode==='modal')closeOverlay();return;}
+document.addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;initAudio();if(b.id==='opening-sound'){voiceUnlocked=true;saved.audio.music=true;persist();initAudio();startStory(false);return;}if(b.id==='opening-silent'){startStory(true);return;}if(b.id==='skip-story'){showGameStart();return;}if(b.id==='story-again'){startStory();return;}if(b.id==='coop-invite-join'){openModal('multiplayer');return;}if(b.id==='game-start'){beginFromStart();return;}if(b.id==='property-btn'){openModal('property');return;}if(b.id==='showroom-btn'){previewEstate=saved.estate;showroomTab='outside';showroomNotice='';decorEdit=false;selectedDecor=null;openModal('showroom');return;}if(b.id==='coop-btn'||b.id==='coop-hud'){openModal('multiplayer');return;}if(b.id==='supply-btn'){openModal('supplies');return;}if(b.id==='service-btn'){giveService();return;}if(b.id==='settings-btn'){openModal('settings');return;}if(b.id==='catalog-btn'){catalogRank='ALL';summonNotice=null;openModal('catalog');return;}if(b.id==='pause-btn'){if(game.playing)openModal('pause');else if(game.mode==='intro')showGameStart();else if(game.mode==='result')openModal('result',false,{won:false});else if(game.mode==='modal')closeOverlay();return;}
 if(b.dataset.coop){coopAction(b.dataset.coop);return;}if(b.dataset.palette){selectedDecor=b.dataset.palette;showModalContent('showroom');return;}if(b.dataset.showview){showroomTab=b.dataset.showview;if(decorEdit&&!DECOR_TABS[showroomTab].includes(selectedDecor))selectedDecor=visibleDecorItems(showroomTab)[0]?.id||null;showModalContent('showroom');return;}if(b.dataset.preview){previewEstate=Math.max(0,Math.min(ESTATES.length-1,(previewEstate??saved.estate)+Number(b.dataset.preview)));showroomNotice='';showModalContent('showroom');return;}if(b.dataset.actual){previewEstate=saved.estate;showroomNotice='';showModalContent('showroom');return;}if(b.dataset.summon){summonGuest();return;}if(b.dataset.catalogFilter){catalogRank=b.dataset.catalogFilter;showModalContent('catalog');return;}if(b.dataset.recipe){game.selected=b.dataset.recipe;sound('tap');render();return;}if(b.dataset.flavorTab){game.flavorTab=b.dataset.flavorTab;game.selected=(game.flavorTab==='half'?HALF_RECIPES:BASE_RECIPES)[0].id;render();return;}if(b.dataset.mold!==undefined){handleMold(Number(b.dataset.mold));return;}if(b.dataset.item){consume(b.dataset.item);return;}if(b.dataset.modal){openModal(b.dataset.modal);return;}if(b.dataset.buy){buyItem(b.dataset.buy);return;}if(b.dataset.supply){supplyStock(b.dataset.supply);return;}if(b.dataset.worker){hireWorker(b.dataset.worker);showModalContent('workers');return;}if(b.dataset.estate){buyEstate(Number(b.dataset.estate));return;}if(b.dataset.decor){buyDecor(b.dataset.decor);return;}if(b.dataset.up){buyUpgrade(b.dataset.up,Number(b.dataset.count||1));return;}if(b.dataset.toggle){const id=b.dataset.toggle;saved.audio[id]=!saved.audio[id];if(id==='voice'&&!saved.audio.voice)cancelVoice();persist();if(id==='music'&&saved.audio.music)initAudio();if(id==='sfx'&&saved.audio.sfx)sound('coin');showModalContent('settings');return;}const act=b.dataset.action;if(act==='decor-edit'){if(previewEstate!==saved.estate){previewEstate=saved.estate;}decorEdit=true;selectedDecor=visibleDecorItems(showroomTab)[0]?.id||null;showModalContent('showroom');return;}if(act==='decor-done'){decorEdit=false;selectedDecor=null;persist();showModalContent('showroom');return;}if(act==='decor-actual'){previewEstate=saved.estate;showModalContent('showroom');return;}if(act==='decor-reset'){saved.decorPositions[showroomTab]={};persist();showModalContent('showroom');msg('↺ 배치 위치를 원래대로 되돌렸어요');return;}if(act==='start'){startDay();return;}if(act==='tutorial-next'){nextTutorial();return;}if(act==='tutorial-skip'){nextTutorial(true);return;}if(act==='voice-preview'){if(!saved.audio.voice){msg('설정에서 캐릭터 음성을 켜주세요!');return;}speak('안녕하세요! 저는 몽이에요. 오늘도 붕어빵 맛있게 구워드릴게요!',{role:'owner1',force:true,interrupt:true});setTimeout(()=>speak('저는 나비예요. 우리 가게에 놀러 오세요!',{role:'owner2',force:true}),2000);return;}if(act==='guide'){tutorialIndex=0;openModal('tutorial',false);return;}if(act==='close'){closeOverlay();return;}if(act==='reset'){resetAll();return;}if(['settings','upgrade','shop','catalog','property','supplies','workers','showroom','multiplayer'].includes(act)){if(act==='showroom'){previewEstate=saved.estate;showroomNotice='';}openModal(act,false);return;}});
 // Touch + mouse furniture moving. The art fills the showroom; positions save as percentages.
 let decorDrag=null,decorMoved=false;
@@ -1181,28 +1199,248 @@ document.addEventListener('click',e=>{if(!decorEdit||!selectedDecor||decorDrag)r
 let hiddenAt=0;document.addEventListener('visibilitychange',()=>{if(document.hidden){hiddenAt=Date.now();}else if(hiddenAt&&game.playing){shiftTimers(Date.now()-hiddenAt);hiddenAt=0;render();}});
 setInterval(tick,130);render();showStoryGate();
 if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost'))navigator.serviceWorker.register('./sw.js').catch(()=>{});
-// Real-time co-op rooms: server-side room codes, SSE events and REST contributions.
-const coopEscape=t=>String(t??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function coopBase(){if(coop.url)return coop.url.replace(/\/+$/,'');return location.protocol==='http:'||location.protocol==='https:'?location.origin:'';}
-function coopSave(){try{localStorage.setItem('bungeoppang_coop_v15',JSON.stringify({url:coop.url,code:coop.code,name:coop.name,memberId:coop.memberId,token:coop.token}));}catch(e){}}
-function coopStatus(){const s=coop.state;if(!coop.code)return '연결 전';return coop.connected?'🟢 실시간 연결': '🟠 재연결 중';}
-function coopModal(){const host=coopBase();const s=coop.state;
- if(!coop.code){return `<div class="modal-icon">🤝</div><h2>숲속 친구들과 협력 장사</h2><p>친구와 방 코드를 공유하고, 각자 붕어빵을 구워 팀 목표 매출을 함께 달성해요!</p><div class="coop-notice">🌟 <b>실시간 협력 테스트</b><br>각자 손님 주문을 처리해요. 완료한 주문의 매출만 합쳐져요. 서버가 온라인이어야 연결돼요.</div><label class="coop-label">닉네임</label><input id="coop-name" class="coop-input" maxlength="12" value="${coopEscape(coop.name||'몽이네 사장')}" placeholder="닉네임"/><label class="coop-label">멀티 서버 주소</label><input id="coop-server" class="coop-input" value="${coopEscape(host)}" placeholder="https://게임서버주소"/><p class="coop-hint">같은 서버 주소에서 게임을 열면 자동으로 연결돼. HTML 파일로 직접 열었다면 위 주소를 입력해 줘.</p><div class="coop-buttons"><button data-coop="create" ${coop.connecting?'disabled':''}>🎁 새 방 만들기</button></div><label class="coop-label">친구 방 코드</label><div class="coop-code-entry"><input id="coop-code" class="coop-input" maxlength="6" placeholder="예: A1B2C3" value="${coopEscape(new URLSearchParams(location.search).get('room')||'')}"/><button data-coop="join" ${coop.connecting?'disabled':''}>🚪 참가</button></div>${coop.error?`<p class="coop-error">${coopEscape(coop.error)}</p>`:''}<button class="wide subtle" data-action="close">게임으로 돌아가기</button>`;}
- const members=s?.members||[];const goal=s?.goal||6000,score=s?.score||0,percent=Math.min(100,Math.round(score/Math.max(1,goal)*100));
- const board=members.map((m,i)=>`<div class="coop-player"><span>${i===0?'👑':'🐾'} ${coopEscape(m.name)}${m.id===coop.memberId?' (나)':''}</span><b>${Number(m.score||0).toLocaleString('ko-KR')} 코인 · ${m.orders||0}건</b></div>`).join('');
- return `<div class="modal-icon">🌲🤝</div><h2>협력 장사방 · ${coopEscape(coop.code)}</h2><p>${coopStatus()} · 친구가 들어오면 팀 매출이 실시간으로 올라가요.</p><div class="coop-notice"><span>우리 팀 총매출</span><strong>${score.toLocaleString('ko-KR')} / ${goal.toLocaleString('ko-KR')} 코인</strong><div class="tech-progress coop-progress"><i style="width:${percent}%"></i></div><small>${s?.completed?'🏆 목표 달성! 팀 협력 성공!':'🎯 주문을 완성하면 팀 점수가 올라가요'}</small></div><div class="coop-buttons"><button data-coop="copy">📋 방 코드 복사</button><button data-coop="share">🔗 초대 링크 복사</button></div><div class="coop-players"><b>🐾 함께 장사하는 친구들 · ${members.length}명</b>${board||'<p>친구를 기다리는 중이에요.</p>'}</div>${coop.error?`<p class="coop-error">${coopEscape(coop.error)}</p>`:''}<button class="wide subtle" data-coop="leave">🚪 방 나가기</button><button class="wide" data-action="close">▶ 나만의 가게에서 주문 받기</button>`;
+// v19 — Firebase Realtime Database room codes, anonymous authentication, and co-op score.
+// This replaces the old /api/room/* endpoints, which GitHub Pages cannot host.
+const COOP_CONFIG_KEY='bungeoppang_firebase_v19';
+const COOP_SESSION_KEY='bungeoppang_coop_v19';
+const COOP_ALPHABET='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+function coopEscape(t){return String(t??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function coopSave(){try{localStorage.setItem(COOP_SESSION_KEY,JSON.stringify({code:coop.code,name:coop.name,pending:coop.pending.slice(-80)}));}catch(e){}}
+function coopSaveConfig(cfg){localStorage.setItem(COOP_CONFIG_KEY,JSON.stringify(cfg));coop.fbConfig=cfg;}
+function coopValidateConfig(cfg){
+ if(!cfg||typeof cfg!=='object')throw Error('Firebase 설정 코드를 입력해 줘.');
+ for(const k of ['apiKey','authDomain','projectId','databaseURL'])if(typeof cfg[k]!=='string'||!cfg[k].trim())throw Error(`Firebase 설정에 ${k} 항목이 빠졌어.`);
+ if(!/^https:\/\//i.test(cfg.databaseURL))throw Error('databaseURL은 https://로 시작해야 해.');
+ return {apiKey:cfg.apiKey.trim(),authDomain:cfg.authDomain.trim(),projectId:cfg.projectId.trim(),databaseURL:cfg.databaseURL.replace(/\/+$/,''),appId:String(cfg.appId||'').trim()};
 }
-function renderCoopHud(){const hud=$('coop-hud');if(!hud)return;if(!coop.code){hud.hidden=true;$('coop-btn').classList.remove('coop-on');return;}hud.hidden=false;$('coop-btn').classList.add('coop-on');const s=coop.state;const percent=s?Math.round(Math.min(100,100*(s.score||0)/Math.max(1,s.goal||6000))):0;hud.textContent=`🤝 ${coop.code} · ${s?`${(s.score||0).toLocaleString('ko-KR')} / ${(s.goal||6000).toLocaleString('ko-KR')}`:'연결 중'} · ${percent}% ${coop.connected?'🟢':'🟠'}`;}
+function coopParseConfig(raw,dbUrl){
+ let t=String(raw||'').trim();
+ const m=t.match(/(?:const|let|var)\s+firebaseConfig\s*=\s*(\{[\s\S]*?\})\s*;?/);
+ if(m)t=m[1];
+ if(!t.startsWith('{'))throw Error('Firebase에서 복사한 firebaseConfig 내용을 붙여넣어 줘.');
+ t=t.replace(/([{,]\s*)([a-zA-Z_$][\w$]*)(\s*:)/g,'$1"$2"$3').replace(/,\s*}/g,'}');
+ let cfg;try{cfg=JSON.parse(t);}catch(e){throw Error('Firebase 설정 형식을 읽지 못했어. Firebase의 구성 코드를 다시 복사해 줘.');}
+ if(dbUrl)cfg.databaseURL=dbUrl.trim();
+ return coopValidateConfig(cfg);
+}
+function coopUrlCode(){try{return (new URLSearchParams(location.search).get('room')||'').toUpperCase().replace(/[^A-Z2-9]/g,'').slice(0,6);}catch(e){return '';}}
+function coopEncodedConfig(cfg){try{return btoa(JSON.stringify(cfg)).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}catch(e){return '';}}
+function coopFromEncoded(t){try{return coopValidateConfig(JSON.parse(atob(t.replace(/-/g,'+').replace(/_/g,'/'))));}catch(e){return null;}}
+function coopInviteUrl(){
+ const url=new URL(location.href);url.search='';url.hash='';url.searchParams.set('room',coop.code);
+ const encoded=coop.fbConfig&&coopEncodedConfig(coop.fbConfig);if(encoded)url.searchParams.set('fb',encoded);
+ return url.toString();
+}
+function coopStatus(){return !coop.code?'연결 전':coop.connected?'🟢 친구들과 실시간 연결':'🟠 네트워크 재연결 중';}
+function coopErrorMessage(e){
+ const code=String(e?.code||'');const message=String(e?.message||e||'알 수 없는 오류');
+ if(code.includes('auth/operation-not-allowed'))return 'Firebase 콘솔에서 Authentication → 로그인 방법 → 익명(Anonymous)을 사용 설정해 줘.';
+ if(code.includes('auth/unauthorized-domain'))return 'Firebase Authentication의 승인된 도메인에 현재 github.io 도메인을 추가해 줘.';
+ if(code.includes('auth/invalid-api-key'))return 'Firebase API 키가 달라. 프로젝트 설정에서 다시 복사해 줘.';
+ if(code.includes('permission-denied')||/permission.denied|permission_denied/i.test(message))return 'Firebase Realtime Database의 규칙(Rules)이 적용되지 않았어. 함께 제공한 규칙 파일 내용을 게시해 줘.';
+ if(code.includes('database/invalid-url'))return 'Realtime Database URL을 다시 확인해 줘.';
+ if(message.includes('Firebase SDK'))return message;
+ return message;
+}
+function coopModal(){
+ const s=coop.state;
+ if(!coop.code){
+  const conf=!!coop.fbConfig;
+  const setup=(!conf||coop.editConfig)?`<div class="coop-notice"><b>🔥 Firebase 연결 (최초 1회)</b><br>① Firebase 프로젝트에서 웹 앱과 Realtime Database를 만든다.<br>② Authentication에서 <b>익명 로그인</b>을 켠다.<br>③ 제공한 <b>database.rules.json</b> 규칙을 게시한다.<br>④ 웹 앱의 <b>firebaseConfig</b> 코드를 아래에 붙인다.<br><small>게임 화면 자체는 계속 무료 GitHub Pages에서 열려.</small></div>
+   <label class="coop-label">Firebase 웹 앱 설정 코드</label><textarea id="coop-firebase" class="coop-input coop-config-input" spellcheck="false" autocapitalize="off" placeholder='const firebaseConfig = { apiKey: "...", authDomain: "...", projectId: "...", appId: "..." };'>${coopEscape(coop.editDraft||'')}</textarea>
+   <label class="coop-label">Realtime Database URL</label><input id="coop-database" class="coop-input" spellcheck="false" autocapitalize="off" placeholder="https://프로젝트명-default-rtdb.asia-southeast1.firebasedatabase.app" value="${coopEscape(coop.fbConfig?.databaseURL||'')}"/>
+   <button class="wide" data-coop="saveconfig">🔥 Firebase 설정 저장</button>`:
+   `<div class="coop-connect-hint">🔥 Firebase 연결 정보: <b>${coopEscape(coop.fbConfig.projectId)}</b><br>친구는 아래 초대 링크로 연결 정보를 자동 전달받아.</div><button class="wide subtle" data-coop="editconfig">⚙️ Firebase 연결 정보 변경</button>`;
+  return `<div class="modal-icon">🐶 🤝 🐱</div><h2>19차 · 온라인 협력 장사</h2><p>아이폰·갤럭시, 같은 와이파이 또는 서로 다른 장소에서 팀 매출을 합산해!</p>
+  ${setup}
+  ${conf&&!coop.editConfig?`<label class="coop-label">내 닉네임</label><input id="coop-name" class="coop-input" maxlength="12" value="${coopEscape(coop.name||'숲속 사장')}" placeholder="닉네임"/>
+  <button class="wide subtle" data-coop="check" ${coop.serverChecking?'disabled':''}>${coop.serverChecking?'⏳ 연결 확인 중':'📡 Firebase 연결 확인'}</button>
+  ${coop.serverCheck?`<div class="coop-message">${coopEscape(coop.serverCheck)}</div>`:''}
+  <div class="coop-buttons"><button data-coop="create" ${coop.connecting?'disabled':''}>🎁 새 방 만들기</button></div>
+  <label class="coop-label">친구 방 코드</label><div class="coop-code-entry"><input id="coop-code" class="coop-input" maxlength="6" autocapitalize="characters" value="${coopEscape(coop.joinDraft||coopUrlCode())}" placeholder="예: ABC234"/><button data-coop="join" ${coop.connecting?'disabled':''}>🚪 참가</button></div>`:''}
+  ${coop.error?`<p class="coop-error">${coopEscape(coop.error)}</p>`:''}
+  <p class="coop-hint">💡 친구는 초대 링크를 열어 방 코드로 참가하면 돼. 각자 주문을 완료하면 팀 매출이 실시간 합산돼. 양쪽에서 같은 손님과 철판을 공유하는 방식은 아니야.</p>
+  <button class="wide subtle" data-action="close">게임으로 돌아가기</button>`;
+ }
+ const members=s?.members||[];const g=s?.goal||6000,v=s?.score||0,percent=Math.min(100,Math.round(v/Math.max(1,g)*100));
+ const board=members.map((m,i)=>`<div class="coop-player"><span>${m.id===coop.memberId?'🐟':i===0?'👑':'🐾'} ${coopEscape(m.name)}${m.id===coop.memberId?' (나)':''} ${m.online?'🟢':'🌙'}</span><b>${Number(m.score||0).toLocaleString('ko-KR')} 코인 · ${m.orders||0}건</b></div>`).join('');
+ return `<div class="modal-icon">🌲🤝</div><h2>우리 함께 장사방</h2><p>${coopStatus()} · 방 코드 <b class="coop-room-code">${coopEscape(coop.code)}</b></p>
+ <div class="coop-notice"><span>🎯 우리 팀 총매출</span><strong>${Number(v).toLocaleString('ko-KR')} / ${Number(g).toLocaleString('ko-KR')} 코인</strong><div class="tech-progress coop-progress"><i style="width:${percent}%"></i></div><small>${s?.completed?'🏆 팀 목표 달성!':'👩‍🍳 각자 주문을 완성하면 팀 매출에 합산돼.'}</small></div>
+ <div class="coop-buttons"><button data-coop="copy">📋 코드 복사</button><button data-coop="share">📲 초대 링크 공유</button></div>
+ <div class="coop-players"><b>🐾 참여 중 ${members.length} / 8명</b>${board||'<p>친구를 기다리고 있어요.</p>'}</div>
+ ${coop.pending.length?`<p class="coop-hint">📦 미전송 매출 ${coop.pending.length}건 · 재연결되면 자동으로 보낼게.</p>`:''}
+ ${!coop.connected?'<button class="wide" data-coop="reconnect">🔄 다시 연결하기</button>':''}
+ ${coop.error?`<p class="coop-error">${coopEscape(coop.error)}</p>`:''}
+ <div class="coop-connect-hint">📱 상대방은 공유받은 링크를 Safari 또는 Chrome에서 열어 참가하면 돼.<br>☁️ 같은 와이파이가 아니어도 연결할 수 있어.</div>
+ <button class="wide subtle" data-coop="leave">🚪 방 나가기</button><button class="wide" data-action="close">▶ 붕어빵 장사 계속하기</button>`;
+}
+function renderCoopHud(){const hud=$('coop-hud');if(!hud)return;if(!coop.code){hud.hidden=true;$('coop-btn').classList.remove('coop-on');return;}hud.hidden=false;$('coop-btn').classList.add('coop-on');const s=coop.state;const percent=s?Math.round(Math.min(100,(s.score||0)*100/Math.max(1,s.goal||6000))):0;hud.textContent=`🤝 ${coop.code} · ${s?(s.score||0).toLocaleString('ko-KR')+' / '+(s.goal||6000).toLocaleString('ko-KR'):'접속 중'} · ${percent}% ${coop.connected?'🟢':'🟠'}`;}
 function coopRefreshModal(){renderCoopHud();if(modalType==='multiplayer'&&!$('overlay').hidden)showModalContent('multiplayer');}
-function coopClear(){if(coop.source){coop.source.close();coop.source=null;}coop.code='';coop.memberId='';coop.token='';coop.state=null;coop.connected=false;coop.connecting=false;coopSave();coopRefreshModal();}
-async function coopRequest(path,body){const base=coopBase();if(!base||!/^https?:\/\//i.test(base))throw Error('멀티 서버 주소를 http:// 또는 https://로 입력해 줘.');const ctrl=new AbortController();const t=setTimeout(()=>ctrl.abort(),9000);try{const res=await fetch(base+path,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body),signal:ctrl.signal});const data=await res.json();if(!res.ok)throw Error(data.error||'서버 연결에 실패했어.');return data;}finally{clearTimeout(t);}}
-function coopAttach(){if(coop.source){coop.source.close();coop.source=null;}if(!coop.code||!coop.token)return;const url=coopBase()+`/api/room/events?code=${encodeURIComponent(coop.code)}&memberId=${encodeURIComponent(coop.memberId)}&token=${encodeURIComponent(coop.token)}`;try{const es=new EventSource(url);coop.source=es;es.addEventListener('snapshot',ev=>{try{coop.state=JSON.parse(ev.data);coop.connected=true;coop.error='';coopRefreshModal();if(coop.state.completed&&coop.state.score>=coop.state.goal&&coop.lastContribution>0)msg('🏆 협력 장사 목표 달성!');}catch(e){}});es.onopen=()=>{coop.connected=true;coopRefreshModal();};es.onerror=()=>{coop.connected=false;coopRefreshModal();};}catch(e){coop.error='연결이 중단됐어.';coop.connected=false;coopRefreshModal();}}
-async function coopAction(act){if(act==='copy'){navigator.clipboard?.writeText(coop.code).then(()=>msg('방 코드를 복사했어!')).catch(()=>msg('방 코드: '+coop.code));return;}
- if(act==='share'){const base=coopBase();const url=base+`/?room=${encodeURIComponent(coop.code)}`;navigator.clipboard?.writeText(url).then(()=>msg('초대 링크를 복사했어!')).catch(()=>msg(url));return;}
- if(act==='leave'){if(coop.code)coopRequest('/api/room/leave',{code:coop.code,memberId:coop.memberId,token:coop.token}).catch(()=>{});coopClear();return;}
- if(coop.connecting)return;coop.error='';coop.connecting=true;const base=($('coop-server')?.value||'').trim();const name=($('coop-name')?.value||'몽이네 사장').trim().slice(0,12);const roomCode=($('coop-code')?.value||'').trim().toUpperCase();coop.url=base;coop.name=name;try{const data=await coopRequest(act==='create'?'/api/room/create':'/api/room/join',act==='create'?{name}:{name,code:roomCode});coop.code=data.code;coop.memberId=data.memberId;coop.token=data.token;coop.state=data.state;coop.connected=true;coopSave();coopAttach();msg(`🤝 방 ${coop.code} 연결했어!`);}catch(e){coop.error=String(e.message||e);coop.connected=false;}finally{coop.connecting=false;coopRefreshModal();}}
-async function coopReportOrder(value){if(!coop.code||!coop.token)return;coop.lastContribution=Date.now();try{await coopRequest('/api/room/contribute',{code:coop.code,memberId:coop.memberId,token:coop.token,delta:Math.min(100000,Math.max(1,Math.round(value||1))) });}catch(e){coop.error='매출 전달 실패: '+String(e.message||e);coopRefreshModal();}}
-try{const old=JSON.parse(localStorage.getItem('bungeoppang_coop_v15')||'null');if(old?.code&&old?.memberId&&old?.token){Object.assign(coop,old);coopAttach();}}catch(e){}
+async function coopInit(){
+ if(coop.db&&coop.auth&&coop.memberId)return coop.memberId;
+ if(coop.initializing)return coop.initializing;
+ coop.initializing=(async()=>{
+  const cfg=coopValidateConfig(coop.fbConfig);
+  if(typeof firebase==='undefined'||!firebase.initializeApp||!firebase.auth||!firebase.database)throw Error('Firebase SDK를 불러오지 못했어. 인터넷 연결을 확인하고 새로고침해 줘.');
+  const app=firebase.apps.find(a=>a.name==='bungeoppang-coop-v19')||firebase.initializeApp(cfg,'bungeoppang-coop-v19');
+  const auth=app.auth();const db=app.database();
+  try{await auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL);}catch(e){/* private browsing can prevent persistence */}
+  if(!auth.currentUser){await new Promise((resolve,reject)=>{let unsub;unsub=auth.onAuthStateChanged(()=>{if(unsub)unsub();resolve();},reject);});}
+  const user=auth.currentUser||(await auth.signInAnonymously()).user;
+  if(!user)throw Error('Firebase 익명 로그인에 실패했어.');
+  coop.db=db;coop.auth=auth;coop.memberId=user.uid;
+  return user.uid;
+ })();
+ try{return await coop.initializing;}finally{coop.initializing=null;}
+}
+function coopStop(){
+ if(coop.roomRef&&coop.roomHandler)coop.roomRef.off('value',coop.roomHandler);
+ if(coop.netRef&&coop.netHandler)coop.netRef.off('value',coop.netHandler);
+ if(coop.memberRef){try{coop.memberRef.child('online').onDisconnect().cancel().catch(()=>{});}catch(e){}}
+ coop.roomRef=null;coop.memberRef=null;coop.roomHandler=null;coop.netRef=null;coop.netHandler=null;
+}
+function coopClear(msgText=''){coopStop();coop.code='';coop.state=null;coop.connected=false;coop.connecting=false;coop.pending=[];coop.sending=false;coop.wasComplete=false;coop.error=msgText;coopSave();coopRefreshModal();}
+function coopReceived(raw){
+ if(!raw){coop.connected=false;coop.error='방을 찾을 수 없어. 방 코드를 다시 확인해 줘.';coopRefreshModal();return;}
+ const members=Object.entries(raw.members||{}).map(([id,m])=>({id,name:String(m.name||'숲속 사장'),online:!!m.online,score:Math.max(0,Number(m.score)||0),orders:Math.max(0,Number(m.orders)||0)}));
+ const total=members.reduce((sum,m)=>sum+m.score,0),goal=Number(raw.goal)||6000;
+ coop.state={members,score:total,goal,completed:total>=goal};
+ coop.connected=!!coop.netOnline;coop.error='';coop.lastEventAt=Date.now();
+ if(coop.state.completed&&!coop.wasComplete){coop.wasComplete=true;msg('🏆 협력 목표 달성! 친구와 함께 성공했어!');}
+ coopRefreshModal();if(coop.pending.length)coopFlush();
+}
+function coopAttach(){
+ coopStop();if(!coop.code||!coop.db||!coop.memberId)return;
+ coop.roomRef=coop.db.ref('rooms/'+coop.code);coop.memberRef=coop.roomRef.child('members/'+coop.memberId);
+ const activeCode=coop.code;
+ coop.roomHandler=snap=>{if(coop.code!==activeCode)return;coopReceived(snap.val());};
+ coop.roomErrorHandler=err=>{if(coop.code!==activeCode)return;coop.connected=false;coop.error=coopErrorMessage(err);coopRefreshModal();};
+ coop.roomRef.on('value',coop.roomHandler,coop.roomErrorHandler);
+ coop.netRef=coop.db.ref('.info/connected');
+ coop.netHandler=async snap=>{
+  if(coop.code!==activeCode)return;
+  coop.netOnline=!!snap.val();coop.connected=coop.netOnline&&!!coop.state;
+  coopRefreshModal();
+  if(coop.netOnline){
+   try{await coop.memberRef.child('online').onDisconnect().set(false);await coop.memberRef.update({online:true,lastSeen:Date.now()});}
+   catch(e){coop.error=coopErrorMessage(e);coopRefreshModal();}
+   coopFlush();
+  }
+ };
+ coop.netRef.on('value',coop.netHandler);
+}
+async function coopCheckState(){
+ if(!coop.code||!coop.db)return;
+ try{const snap=await coop.db.ref('rooms/'+coop.code).once('value');if(!snap.exists())throw Error('방이 없거나 삭제됐어.');coopReceived(snap.val());}
+ catch(e){coop.connected=false;coop.error=coopErrorMessage(e);coopRefreshModal();}
+}
+async function coopFlush(){
+ if(coop.sending||!coop.code||!coop.db||!coop.memberId||!coop.netOnline||!coop.pending.length)return;
+ coop.sending=true;const activeCode=coop.code;
+ try{
+  while(coop.pending.length&&coop.code===activeCode&&coop.netOnline){
+   const item=coop.pending[0];const ref=coop.db.ref('rooms/'+activeCode+'/members/'+coop.memberId);
+   const result=await ref.transaction(current=>{
+    // Firebase may run a transaction with a temporary null cache before server state arrives.
+    if(!current){const now=Date.now();return {name:coop.name||'숲속 사장',score:item.delta,orders:1,joinedAt:now,lastSeen:now,online:true,recent:{[item.id]:1}};}
+    if(current.recent&&current.recent[item.id])return;
+    const seen={...(current.recent||{})};seen[item.id]=1;
+    const keys=Object.keys(seen);for(const key of keys.slice(0,Math.max(0,keys.length-50)))delete seen[key];
+    return {...current,score:(Number(current.score)||0)+item.delta,orders:(Number(current.orders)||0)+1,recent:seen,lastSeen:Date.now()};
+   },undefined,false);
+   const delivered=result.committed||!!result.snapshot?.val()?.recent?.[item.id];
+   if(!delivered)throw Error('매출 기록이 반영되지 않았어. 다시 연결해 줘.');
+   coop.pending.shift();coopSave();
+  }
+ }catch(e){coop.error='매출을 임시 저장했어: '+coopErrorMessage(e);coop.connected=false;coopRefreshModal();}
+ finally{coop.sending=false;coopRefreshModal();}
+}
+function coopReportOrder(value){
+ if(!coop.code)return;
+ const arr=new Uint32Array(2);if(crypto?.getRandomValues)crypto.getRandomValues(arr);
+ const id=Date.now().toString(36)+Array.from(arr,n=>n.toString(36)).join('');
+ coop.pending.push({id,delta:Math.min(100000,Math.max(1,Math.round(Number(value)||1)))});
+ if(coop.pending.length>120)coop.pending.shift();coopSave();coopFlush();
+}
+async function coopCopy(textValue){try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(textValue);return true;}}catch(e){}
+ try{const el=document.createElement('textarea');el.value=textValue;el.style.position='fixed';el.style.opacity='0';el.style.top='0';document.body.appendChild(el);el.focus();el.select();el.setSelectionRange(0,el.value.length);const ok=document.execCommand('copy');el.remove();return ok;}catch(e){return false;}}
+function coopNewCode(){const a=new Uint8Array(6);crypto.getRandomValues(a);return [...a].map(v=>COOP_ALPHABET[v%COOP_ALPHABET.length]).join('');}
+function coopJoinName(){return ($('coop-name')?.value||coop.name||'숲속 사장').trim().slice(0,12)||'숲속 사장';}
+async function coopEnter(code,name,mode){
+ const uid=await coopInit();const ref=coop.db.ref('rooms/'+code),now=Date.now();
+ if(mode==='create'){
+  const result=await ref.transaction(current=>current?undefined:{owner:uid,goal:6000,createdAt:now,members:{[uid]:{name,score:0,orders:0,joinedAt:now,lastSeen:now,online:true}}},undefined,false);
+  if(!result.committed)throw Error('방 번호가 겹쳤어. 새 번호로 다시 시도할게.');
+ }else{
+  const snap=await ref.once('value');if(!snap.exists())throw Error('이 방 코드가 없어. 친구가 보낸 6자리를 확인해 줘.');
+  const members=snap.val().members||{};
+  if(!members[uid]&&Object.keys(members).length>=8)throw Error('이 방은 8명이 모두 찼어.');
+  const memberRef=ref.child('members/'+uid);
+  if(members[uid])await memberRef.update({name,online:true,lastSeen:now});
+  else await memberRef.set({name,score:0,orders:0,joinedAt:now,lastSeen:now,online:true});
+ }
+ coop.code=code;coop.name=name;coop.netOnline=true;coop.connected=true;coop.state=null;coop.wasComplete=false;coop.pending=[];coop.error='';coopSave();coopAttach();msg(`🤝 ${code} 방에 연결했어!`);
+}
+async function coopAction(act){
+ if(act==='copy'){const ok=await coopCopy(coop.code);msg(ok?'📋 방 코드를 복사했어!':`방 코드: ${coop.code}`);return;}
+ if(act==='share'){
+  const url=coopInviteUrl();if(navigator.share){try{await navigator.share({title:'붕어빵 타이쿤 친구 초대',text:`우리 붕어빵 가게에서 같이 장사해! 방 코드 ${coop.code}`,url});return;}catch(e){if(e.name==='AbortError')return;}}
+  const ok=await coopCopy(url);msg(ok?'🔗 초대 링크를 복사했어!':`초대 주소: ${url}`);return;
+ }
+ if(act==='leave'){
+  const ref=coop.memberRef;const code=coop.code;coopClear();if(ref)ref.remove().catch(()=>{});msg(`${code} 방에서 나왔어.`);return;
+ }
+ if(act==='editconfig'){coop.editConfig=true;coop.editDraft=JSON.stringify(coop.fbConfig,null,2);coopRefreshModal();return;}
+ if(act==='saveconfig'){
+  try{const cfg=coopParseConfig($('coop-firebase')?.value,$('coop-database')?.value);if(coop.db){coopStop();await firebase.app('bungeoppang-coop-v19').delete();coop.db=null;coop.auth=null;coop.memberId='';coop.netOnline=false;}coopSaveConfig(cfg);coop.editConfig=false;coop.editDraft='';coop.error='';coop.serverCheck='';coopRefreshModal();msg('🔥 Firebase 설정을 저장했어! 이제 방을 만들 수 있어.');}
+  catch(e){coop.error=coopErrorMessage(e);coop.editDraft=$('coop-firebase')?.value||'';coopRefreshModal();}
+  return;
+ }
+ if(act==='reconnect'){coop.error='';try{await coopInit();coopAttach();await coopCheckState();}catch(e){coop.error=coopErrorMessage(e);coopRefreshModal();}return;}
+ if(coop.connecting)return;
+ if(act==='check'){
+  coop.serverChecking=true;coop.serverCheck='Firebase 연결을 확인하고 있어…';coopRefreshModal();
+  try{await coopInit();await coop.db.ref('rooms/AAA222').once('value');coop.serverCheck=`✅ Firebase 연결 성공! (${coop.fbConfig.projectId})`;coop.error='';}
+  catch(e){coop.serverCheck='❌ '+coopErrorMessage(e);}
+  finally{coop.serverChecking=false;coopRefreshModal();}
+  return;
+ }
+ const name=coopJoinName(),roomCode=($('coop-code')?.value||coop.joinDraft||coopUrlCode()).trim().toUpperCase();coop.name=name;coop.joinDraft=roomCode;
+ if(act==='join'&&!/^[A-Z2-9]{6}$/.test(roomCode)){coop.error='6자리 방 코드를 정확히 입력해 줘.';coopRefreshModal();return;}
+ coop.error='';coop.connecting=true;coopRefreshModal();
+ try{
+  if(act==='create'){
+   let error;for(let attempts=0;attempts<8;attempts++){
+    try{await coopEnter(coopNewCode(),name,'create');error=null;break;}
+    catch(e){error=e;if(!String(e.message).includes('겹쳤어'))break;}
+   }if(error)throw error;
+  }else await coopEnter(roomCode,name,'join');
+ }catch(e){coop.error=coopErrorMessage(e);coop.connected=false;}
+ finally{coop.connecting=false;coopRefreshModal();}
+}
+try{
+ const fromLink=new URLSearchParams(location.search).get('fb');let cfg=null;
+ if(fromLink)cfg=coopFromEncoded(fromLink);
+ if(!cfg)cfg=JSON.parse(localStorage.getItem(COOP_CONFIG_KEY)||'null');
+ if(cfg)coop.fbConfig=coopValidateConfig(cfg);
+ if(fromLink&&cfg)localStorage.setItem(COOP_CONFIG_KEY,JSON.stringify(cfg));
+ const old=JSON.parse(localStorage.getItem(COOP_SESSION_KEY)||'null');
+ if(old){coop.name=old.name||'';coop.pending=Array.isArray(old.pending)?old.pending.slice(-80):[];coop.code=old.code||'';}
+ if(coopUrlCode()&&coop.code!==coopUrlCode()){coop.code='';coop.pending=[];}
+ if(coop.code&&coop.fbConfig){
+  setTimeout(async()=>{
+   try{
+    await coopInit();const snap=await coop.db.ref('rooms/'+coop.code).once('value');
+    if(!snap.exists()||!snap.val().members?.[coop.memberId]){coopClear('기존 방에 다시 연결할 수 없어. 방 코드로 참가해 줘.');return;}
+    coopAttach();
+   }catch(e){coop.connected=false;coop.error=coopErrorMessage(e);coopRefreshModal();}
+  },700);
+ }
+}catch(e){coop.error=coopErrorMessage(e);}
+if(typeof window!=='undefined'){
+ window.addEventListener('online',()=>{if(coop.code&&coop.db){coopCheckState();coopFlush();}});
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden&&coop.code&&coop.db){coopCheckState();coopFlush();}});
+}
 
 window.__bungeoTest={decorPosition,decorMove,visibleDecorItems,showroomArt,showroomView,storyFrame,showStoryGate,startStory,speak,bubbleSay,ownerTalk,spellStatus,game,saved:()=>saved,startDay,handleMold,tick,consume,order,render,buyUpgrade,techLv,techCost,techBundleCost,UPGRADES,coop,coopModal,coopReportOrder,buyItem,buyEstate,buyDecor,openModal,closeOverlay,startStory,showGameStart,nextTutorial,goal,STORY,ESTATES,DECORS,WORKERS,RECIPES,hireWorker,supplyStock,giveService,stockAvailable,staffWork};
 })();
